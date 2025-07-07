@@ -13,7 +13,4 @@ export const extentionIconPathes:Record<string,string> ={
     src:"/icons/folder-type-src",
     components:"/icons/folder-type-component"
 
-
-
-
 }
