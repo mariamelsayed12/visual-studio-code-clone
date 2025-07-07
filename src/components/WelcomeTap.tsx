@@ -3,7 +3,7 @@ import IconImage from './IconImage'
 const WelcomeTap = () => {
     return (
     <div className='h-screen flex items-center justify-center'>
-        <IconImage src='src/icons/vscode-svgrepo-com.svg' classname='w-64'/>
+        <IconImage src='/icons/vscode-svgrepo-com.svg' classname='w-64'/>
     </div>
     )
 }

@@ -9,12 +9,11 @@ interface Iprops{
 
 } 
 
-const ReasizablePanel = ({showleftpanel,leftPanel,rightPanel,  defaultLayout = [40, 60],}:Iprops) => {
+const ReasizablePanel = ({showleftpanel,leftPanel,rightPanel,  defaultLayout = [30, 70],}:Iprops) => {
     
     const onLayout = (sizes: number[]) => {
         document.cookie = `react-resizable-panels:layout=${JSON.stringify(sizes)}`;
         };
-    
     return (
 <PanelGroup direction="horizontal" onLayout={onLayout} autoSaveId="condition">
 

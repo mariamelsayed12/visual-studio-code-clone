@@ -58,7 +58,7 @@ if(extention && Object.prototype.hasOwnProperty.call(extentionIconPathes,extenti
 //                 )
 
 if (isFolder && isopen)return  <FolderOpen className="w-8 h-8 fill-yellow-400" color="yellow-400" />
-if (isFolder && !isopen)return  <IconImage src="src/icons/folder.svg "/>
+if (isFolder && !isopen)return  <IconImage src="/icons/folder.svg "/>
 return <File/>
 
 }
